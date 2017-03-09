@@ -12,7 +12,7 @@ app.get('/', function(req, res){
             res.send({result:result});
         });
     }else{
-        res.send('supply a and b');
+        res.send('supply a and b and operation');
     }
 });
 
